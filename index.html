@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dojonary</title>
+</head>
+<body>
+  <div class="container">
+    <header class="flex">
+      <h1>Dojonary</h1>
+      <input type="text" id="searchBar" name="searchBar" placeholder="Search" size="70">
+      <button class="btn" onclick="logInOut(this)">Login</button>
+    </header>
+    <section class="container2">
+      <div class="leftSide flex">
+        <article class="defenition flex">
+          <div class="border flex">
+            <div class="center">
+              <h2>ninja</h2><br>
+              <p>noun</p><br>
+              <p>Plural: ninjas</p><br>
+              <button class="likebtn" onclick="alert('Ninja was liked')">13 likes</button>
+            </div>
+            <p class="desribe">A practitioner skilled in the Japanese art of ninjutsu</p>
+          </div>
+          <div class="border flex">
+            <div class="center flex">
+              <h2>ninja</h2><br>
+              <p>noun</p><br>
+              <p>Plural: ninjas</p><br>
+              <button class="likebtn" onclick="alert('Ninja was liked')">13 likes</button>
+            </div>
+            <p class="desribe">A programmer who breaks down problems with zen-like focus</p>
+          </div>
+        </article>
+      </div>
+      <div class="rightSide flex">
+        <article class="border">
+          <div class="center">
+            <h2>Dojonary is defined by YOU</h2><br>
+            <button class="definebtn" onclick="hide(this)">Add Definition</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
